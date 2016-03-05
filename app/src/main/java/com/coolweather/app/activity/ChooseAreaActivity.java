@@ -1,8 +1,5 @@
 package com.coolweather.app.activity;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -27,6 +24,9 @@ import com.coolweather.app.model.Province;
 import com.coolweather.app.util.HttpCallbackListener;
 import com.coolweather.app.util.HttpUtil;
 import com.coolweather.app.util.Utility;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ChooseAreaActivity extends Activity {
 
